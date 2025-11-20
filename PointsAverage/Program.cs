@@ -6,6 +6,7 @@ double sum = 0;
 int gradesCount = 5;
 bool userWantsToExit = false; // Змінна для перевірки бажання вийти
 
+Console.WriteLine("---> Студент допущений до екзамену? <---");
 Console.WriteLine($"Введіть {gradesCount} оцінок (0-100)");
 
 for (int i = 1; i <= gradesCount; i++)
